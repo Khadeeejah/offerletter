@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    body{
+      overflow-x:hidden;
+      font-family: Inter;
+    font-style: normal;
+    }
+
+    
+    .col-12 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+   h2{
+        border-bottom: 1px solid #e3ebf6 !important;
+     margin-top: 20px;
+    margin-bottom: 1.125rem;
+    font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 20px;
+color: #2D2D2D;
+
+    }
+
+    .text{
+
+        padding-bottom: 0.75rem !important;
+    }
+
+    .alert{
+width: 1043px;
+height: 46px;
+background: #DFEFF8;
+border: 0.5px solid #2D95CF;
+box-sizing: border-box;
+border-radius: 4px;
+    }
+
+    .info{
+        font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 14px;
+color: #0E354B;
+    }
+
+.trix-toolbar-1{
+    display: block;
+    box-sizing: border-box;
+    background: #F8F8F8;
+    width: 1179px;
+height: 60px;
+left: 248px;
+top: 153px
+}
+
+.red{
+    color: red;
+}
+trix-toolbar{
+    display: block;
+    white-space: nowrap;
+    background: #F8F8F8;
+}
+
+trix-toolbar .trix-button-group .trix-button{
+    background: #F8F8F8;
+}
+
+
+trix-toolbar .trix-button-group {
+    display: flex;
+    margin-bottom: 10px;
+    border-top-color: #ccc;
+    border-bottom-color: #888;
+    border-radius: 3px;
+    background: #F8F8F8;
+}
+
+
+.trix-toolbar-1 .trix-button-row {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    overflow-x: auto;
+    padding-bottom: 70px;
+    background: #F8F8F8;
+}
+
+
+
+
+
+
+/* trix-toolbar .trix-button-group {
+    display: flex;
+    margin-bottom: 10px;
+    border: 1px solid #bbb;
+    border-top-color: #ccc;
+    border-bottom-color: #888;
+    border-radius: 3px;
+}
+
+.trix-toolbar-1 .trix-button-row {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    overflow-x: auto;
+    padding-bottom: 70px;
+    background: #F8F8F8;
+}
+
+
+.template-editor {
+    
+    background-color: #fff;
+font-family:'Inter', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+color: #323232;
+}
+
+ trix-editor {
+
+    margin: 0;
+    width: 1058px;
+    height: 168px;
+    padding-top: 251px;
+    border: 1px solid #bbb;
+    border-radius: 3px;
+} 
+
+.bi{
+
+background: #327BBC;
+}
+
+
+
+
+trix-toolbar {
+    white-space: nowrap;
+  } */
+
+
+ 

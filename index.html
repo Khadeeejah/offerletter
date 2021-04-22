@@ -1,0 +1,220 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .template-editor {
+            min-height: 300px;
+            height: auto;
+            display: block;
+        }
+
+    </style>
+     <!-- <style type="text/css" data-tag-name="trix-editor">trix-editor {
+        display: block;
+      }
+      
+      trix-editor:empty:not(:focus)::before {
+        content: attr(placeholder);
+        color: grey;
+        cursor: text;
+        pointer-events: none;
+      }
+      
+      trix-editor a[contenteditable=false] {
+        cursor: text;
+      }
+      
+      trix-editor img {
+        max-width: 100%;
+        height: auto;
+      }
+      
+      trix-editor [data-trix-attachment] figcaption textarea {
+        resize: none;
+      }
+      
+      trix-editor [data-trix-attachment] figcaption textarea.trix-autoresize-clone {
+        position: absolute;
+        left: -9999px;
+        max-height: 0px;
+      }
+      
+      trix-editor [data-trix-attachment] figcaption[data-trix-placeholder]:empty::before {
+        content: attr(data-trix-placeholder);
+        color: grey;
+      }
+      
+      trix-editor [data-trix-cursor-target] {
+        display: inline-block !important;
+        width: 1px !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        border: none !important;
+      }
+      
+      trix-editor [data-trix-cursor-target=left] {
+        vertical-align: top !important;
+        margin-left: -1px !important;
+      }
+      
+      trix-editor [data-trix-cursor-target=right] {
+        vertical-align: bottom !important;
+        margin-right: -1px !important;
+      }
+
+     <style type"text/css" data-tag-name="trix-toolbar">trix-toolbar {
+        display: block;
+      }
+      
+      trix-toolbar {
+        white-space: nowrap;
+      }
+      
+      trix-toolbar [data-trix-dialog] {
+        display: none;
+      }
+      
+      trix-toolbar [data-trix-dialog][data-trix-active] {
+        display: block;
+      }
+      
+      trix-toolbar [data-trix-dialog] [data-trix-validate]:invalid {
+        background-color: grey;
+      }</style>   -->
+
+    <title>offer letter</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" type="image/ico"
+        href="/assets/favicon-76638ddb241e02d9e90e2c6ac8bebdb4234878187d5c592536ff3aa6a8f77f85.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="/trix.css">
+    <script type="text/javascript" src="/trix.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="text"> Full Time Offer Letter Template</h2>
+                <div class="alert alert-light py-3" role="alert">
+
+                    <p class="info">
+                         please do not add or modify a form token. Form tokens are text that begin with
+                        <b>%{ and ends with}</b>
+
+                    </p>
+
+                </div>
+
+
+
+
+
+
+                <form>
+
+                    <input id="x" value="" type="hidden" name="content">
+                    <trix-editor input="x" class="template-editor">
+                        <p> <b>Dear</b>%{ employee_name}:</p>
+                        <p> <b>Offer Letter for the Position </b> of %{job_title} at %{>company_name}</p>
+                        <p> %{<span class="echo "# offerletter" >> README.mdred">company_description</span>}</p>
+                        <p> We are pleased to offer you employment with %{company_name} as a %{job_title}. In this role,
+                            you will report to the %{supervisor_title}. This position will commence on
+                            %{employment_start_date} for an initial probationary period of %{probation_period} and if we
+                            both feel like this is a right fit, you will continue working with us at %{company_name}.
+                        </p>
+                        <p> <b>The terms and conditions of your employment are as follows:</b></p>
+                        <p> <b>Remuneration:</b> You will be paid as compensation for your services at a gross rate of
+                            %{gross_salary}, payable on the Company’s regular payroll dates.;</p>
+                        <p> <b>Position:</b> You will start in a full-time position as %{<span
+                                class="text-red">employee_job_title</span>} and you will initially report to the
+                            Company’s %{<span class="text-red">supervisor_title</span>}. %{<span
+                                class="text-red">dutides</span>}. By signing this letter, you confirm with the Company
+                            that you are under no contractual or other legal obligations that would prohibit you from
+                            performing your duties with the Company.</p>
+                        <p> <b>Working Hours:</b> Your working hours from Monday to Friday is from %{<span
+                                class="text-red">working_hours</span>} or as advised by the %{<span
+                                class="text-red"></span>supervisor_title}.&nbsp;</p>
+                        <p> <b>Other Benefits:</b> %{<span class="text-red">benefits</span>}</p>
+                        <p> <b>Confidential Information and Invention Assignment Agreement:</b> Like all Company
+                            employees, you will be required, as a condition of your employment with the Company, to sign
+                            the Company’s standard Confidential Information and Invention Assignment Agreement;/p><p>
+                                <b>Employment Relationship:</b> Employment with the Company is for no specific period of
+                                time. Your employment with the Company will be “at will,” meaning that either you or the
+                                Company may terminate your employment at any time and for any reason, with or without
+                                cause. Any contrary representations which may have been made to you are superseded by
+                                this offer. This is the full and complete agreement between you and the Company on this
+                                term. Although your job duties, title, compensation and, benefits, as well as the
+                                Company’s personnel policies and procedures, may change from time to time, the “at-will”
+                                nature of your employment may only be changed in an express written agreement signed by
+                                you and the Company’s Chief Executive Officer.</p>
+                            <p> <b>Outside Activities:</b> While you render services to the Company, you agree that you
+                                will not engage in any other employment, consulting or other business activity without
+                                the written consent of the Company.</p>
+                            <p> <b>Governing Law:</b> The validity, interpretation, construction and performance of the
+                                terms of this letter, and all acts and transactions pursuant hereto and the rights and
+                                obligations of the parties hereto shall be governed, construed and interpreted in
+                                accordance with the laws of the %{<span class="text-red">jurisdiction</span>}, without
+                                giving effect to principles of conflicts of law.</p>
+                            <p> <b>Entire Agreement: </b>This letter sets forth the entire agreement and understanding
+                                of the parties relating to the subject matter herein and supersedes all prior or
+                                contemporaneous discussions, understandings and agreements, whether oral or written,
+                                between them relating to the subject matter hereof.</p>
+                            <p> <b>Counterparts:</b> This letter may be executed in any number of counterparts, each of
+                                which when so executed and delivered shall be deemed an original, and all of which
+                                together shall constitute one and the same agreement.</p>
+                            <p> <b>Electronic Delivery:</b> The Company may, in its sole discretion, decide to deliver
+                                any documents related to this letter or any notices required by applicable law or the
+                                Company’s Certificate of Incorporation or Bylaws by email or any other electronic means.
+                                You hereby consent to receive such documents and notices by such electronic delivery and
+                                agree to participate through an on-line or electronic system established and maintained
+                                by the Company or a third party designated by the Company. This offer has been sent to
+                                you for electronic signature. By electronically signing this offer, you agree and
+                                acknowledge that you have been able to access and review the offer and choose to sign
+                                the offer electronically.</p>
+                            <p> If you wish to accept this offer, please electronically sign this letter. This offer, if
+                                not accepted, will expire at the close of business on %{offer_expiration_date}. We look
+                                forward to having you join us no later than %{<span
+                                    class="text-red">employment_start_date</span>}.</p>
+                    </trix-editor>
+                </form>
+
+
+            </div>
+            </form>
+        </div>
+    </div>
+    </div>
+
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
